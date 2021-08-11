@@ -23,4 +23,13 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newName: function(name) {
+    this.name = name;
+  },
 };
+
+console.log(backpack.name);
+
+backpack.newName("Hiking Backpack");
+
+console.log(backpack.name);
